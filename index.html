@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
+    <title>Firebase Connection</title>
     <script src="https://js.stripe.com/v3/"></script>
     <style>
         :root {
@@ -119,11 +119,12 @@
         }
 
         a:hover {
-            text-decoration: underline;
+            text-decoration: none;
         }
     </style>
 </head>
 <body>
+    <!-- Header -->
     <header>
         <h2>ExEtAt</h2>
         <nav>
@@ -131,7 +132,7 @@
         </nav>
     </header>
 
-    <h1>Contactez-Nous!</h1>
+    <h1>Connexion avec Firebase</h1>
     <form id="dataForm">
         <label for="ide">Matricule:</label>
         <input type="text" id="ide" name="idee" required>
@@ -160,8 +161,11 @@
         <a href="sms.html">SMS</a>
         <a href="https://api.whatsapp.com/send?phone=25779909070">WhatsApp</a>
     </form>
+
+    <!-- Footer -->
     <footer>
         &copy; 2024 ExEtAt. Tous droits réservés.
+        <a href="membre.html">AdminiStrateurs</a>
     </footer>
 
     <script type="module">
