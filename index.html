@@ -186,7 +186,7 @@
             e.preventDefault();
             console.log('Clic détecté');
             set(ref(db, 'contact/' + document.getElementById("ide").value), {
-                id: document.getElementById("ide").value,
+                matricule: document.getElementById("ide").value,
                 nom: document.getElementById("name").value,
                 prenom: document.getElementById("preno").value,
                 numero: document.getElementById("num").value,
